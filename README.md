@@ -4,7 +4,7 @@
 
 This project applies **Natural Language Processing (NLP)** techniques and supervised learning to classify news as true or false.
 
-[![Open In Colab](http://colab.research.google.com/drive/1lAS4PmovfqvCOFxXQhEJkEfbFiL_qUqE)]
+[![Open In Colab](https://colab.research.google.com)](https://colab.research.google.com/drive/1lAS4PmovfqvCOFxXQhEJkEfbFiL_qUqE)
 
 ## The Corpus
 A balanced dataset of **5,200 news articles** in Spanish was constructed:
@@ -28,6 +28,11 @@ The project evaluates the impact of normalization and vectorization on model per
 The notebook is structured into two main blocks:
 1.  **Section 1 (Extraction):** Evidence of web scraping and initial cleaning (requires manual upload of external datasets).
 2.  **Section 2 onwards (Processing and Training):** Direct access to the processed corpus via automatic download from Google Drive, application of techniques, model training, and metric calculation.
+
+## Process and results
+The experiments yielded highly **positive** results, demonstrating high f1-score in news classification. The application of normalization techniques and TF-IDF allowed the models to achieve outstanding performance.
+
+For a detailed analysis of preprocessing, techniques, metrics and algorithm comparisons, please refer to the **attached PDF file** in this repository.
 
 
 ## Collaborations
